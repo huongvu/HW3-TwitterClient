@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivClientUrl"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tweet_username"
+        android:textColor="#76767A"
+        android:textSize="12sp"
+        android:id="@+id/tvClientUserName"
+        android:layout_below="@+id/tvClientName"
+        android:layout_toRightOf="@+id/ivClientUrl"
+        android:layout_toEndOf="@+id/ivClientUrl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tweet_name"
+        android:textColor="#000103"
+        android:id="@+id/tvClientName"
+        android:layout_alignTop="@+id/ivClientUrl"
+        android:layout_alignLeft="@+id/tvClientUserName"
+        android:layout_alignStart="@+id/tvClientUserName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tweet_maxCharacter"
+        android:textColor="#3845F5"
+        android:id="@+id/tvCCount"
+        android:layout_alignBottom="@+id/tvClientUserName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTweetContent"
+        android:layout_below="@+id/ivClientUrl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tweet_btn"
+        android:id="@+id/btnTweet"
+        android:layout_below="@+id/etTweetContent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

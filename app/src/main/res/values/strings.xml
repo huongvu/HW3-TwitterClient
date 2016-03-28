@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleTweets</string>
+    <string name="login_label">Connect To Twitter</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tweet_name">Name</string>
+    <string name="tweet_username">User Name</string>
+    <string name="tweet_timestamp">Time Stamp</string>
+    <string name="tweet_content">Content</string>
+    <string name="tweet_btn">Tweet</string>
+    <string name="tweet_maxCharacter">140</string>
+
+</resources>
